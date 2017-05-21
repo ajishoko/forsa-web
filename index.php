@@ -11,7 +11,6 @@ $app->register(new Herrera\Pdo\PdoServiceProvider(),
                    'pdo.password' => $dbopts["pass"]
                )
 );
-
 echo("PG is Now Connectetd");
 
 ?>
