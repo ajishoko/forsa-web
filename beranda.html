@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Beranda</title>
+		<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="beranda.html"  id="websiteName">
+                    	<img src='img/forsared.png' height='35px' id='logoF' style='margin-top:-8px;'>
+                    </a>
+                </div>
+            	<ul class="nav navbar-nav">
+			      	<li class="active"><a href="beranda.html">Utama</a></li>
+					<li><a href="forum-user.html">Forum</a></li>
+					<li><a href="berita.html">Berita</a></li>
+			      	<li><a href="teman.html">Teman <span class="badge">11</span></a></a></li>
+					<li><a href="user.html">@username00</a></a></li>
+			    </ul>
+                <form class="navbar-form navbar-right">
+                	
+                    <div class="form-group">
+                        <button type='submit' class='btn btn-link' name='login' id="loginButton">
+                        	<a href='index.html'><span class='glyphicon glyphicon-log-out'></span>  Keluar
+                        	</a>
+                        </button> 
+                    </div>
+                </form>
+            </div>
+        </nav>
+       	<br>
+       	<br>
+		<br>
+		<br>
+		<div class='container'>
+			<div class="alert alert-info">
+			  	<strong>Info !</strong> Untuk dapat membuat konten maupun pertanyaan pada forum anda dapat mengklik tombol 'Ciptakan Thread' dibawah.
+			</div>
+			<button class='btn btn-danger'><a href='thread.html' style='text-decoration: none; color:white;'><span class='glyphicon glyphicon-pencil'></span> Ciptakan Thread</a></button>
+			<br>
+			<br>
+			<p style='margin-left: 10px;'>Beberapa <i>tag</i> terkait minat anda : <span class="badge">#teknologi</span><span class="badge">#komputer</span><span class="badge">#bisnis</span><span class="badge">#politik</span><span class="badge">#ekonomi</span></p>
+	        <div style='margin-left: 10px;'>
+	        	<div class="row">
+	        		<div class="col-sm-9">
+	        			<h1 style='color:#cb4335;'>Forum Terkait</h1>
+			        	<ul class="nav nav-tabs">
+						  <li class="active"><a href="#">Terbaru</a></li>
+						  <li><a href="#">Populer</a></li>
+						</ul>
+						<table class='table table-hover'>
+							<thead>
+								<tr>
+									<td>Judul Thread</td>
+									<td>Rating</td>
+									<td>Statistik</td>
+									<td>Balasan Terakhir</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr href='#'>
+									<td><h4>Sejarah Komputer</h4><h5>Oleh : officialFORSA</h5><span class="badge">#teknologi</span><span class="badge">#komputer</span></td>
+									<td><h4 style='color:#00cc00;'><span class='glyphicon glyphicon-circle-arrow-up'></span> 1,679</h4></td>
+									<td><h5>Dibalas : 139</h5><h5>Dilihat : 2,348</h5></td>
+									<td><h5>Komentar terakhir <b>24-04-2017</b> </h5><h5>oleh: squid98</h5></td>
+								</tr>
+								<tr href='#'>
+									<td><h4>#SayaPancasila untuk Mencegah Paham Radikal</h4><h5>Oleh : officialFORSA</h5><span class="badge">#politik</span></td>
+									<td><h4 style='color:#00cc00;'><span class='glyphicon glyphicon-circle-arrow-up'></span> 3,907</h4></td>
+									<td><h5>Dibalas : 2,231</h5><h5>Dilihat : 4,856</h5></td>
+									<td><h5>Komentar terakhir <b>25-04-2017</b> </h5><h5>oleh: arieft23</h5></td>
+								</tr>
+								<tr href='#'>
+									<td><h4>Bagaimana Cara Menginstall Windows 10 ?</h4><h5>Oleh : mahasiswabaru</h5><span class="badge">#komputer</span></td>
+									<td><h4 style='color:#00cc00;'><span class='glyphicon glyphicon-circle-arrow-up'></span> 987</h4></td>
+									<td><h5>Dibalas : 241</h5><h5>Dilihat : 1,848</h5></td>
+									<td><h5>Komentar terakhir <b>21-04-2017</b> </h5><h5>oleh: arieft23</h5></td>
+								</tr>
+								<tr href='#'>
+									<td><h4>Apa Saldo Normal Kas ?</h4><h5>Oleh : mahasiswaakuntansi</h5><span class="badge">#ekonomi</span></td>
+									<td><h4 style='color:#00cc00;'><span class='glyphicon glyphicon-circle-arrow-up'></span> 26</h4></td>
+									<td><h5>Dibalas : 3</h5><h5>Dilihat : 48</h5></td>
+									<td><h5>Komentar terakhir <b>25-04-2017</b> </h5><h5>oleh: yura97</h5></td>
+								</tr>
+								<tr href='#'>
+									<td><h4>Menginstall JDK</h4><h5>Oleh : kennyrobert</h5><span class="badge">#komputer</span></td>
+									<td><h4 style='color:#00cc00;'><span class='glyphicon glyphicon-circle-arrow-up'></span> 93</h4></td>
+									<td><h5>Dibalas : 110</h5><h5>Dilihat : 148</h5></td>
+									<td><h5>Komentar terakhir <b>21-04-2017</b> </h5><h5>oleh: ipagastya97</h5></td>
+								</tr>
+							</tbody>
+						</table>
+						<ul class="pagination pagination-sm">
+							  <li><a href="#">1</a></li>
+							  <li><a href="#">2</a></li>
+							  <li><a href="#">3</a></li>
+							  <li><a href="#">4</a></li>
+							  <li><a href="#">5</a></li>
+						</ul>
+	        		</div>
+	        		<div class="col-sm-3">
+	        			<h1 style='color:#cb4335;'>Berita Terkait</h1>
+	        			<table class='table table-hover'>
+	        				<tr>
+	        					<td>
+		        					<div class="media">
+										<div class="media-left">
+										  	<img src="img/xiao.jpg" class="media-object" style="width:80px">
+										</div>
+										<div class="media-body">
+										  	<h5>Tentang Xiaomi Mi 6</h5>
+											<button type='submit' class='btn btn-link' name='read' id="read">
+					                        	<a href='#'><span class='glyphicon glyphicon-search'></span>  Baca Selengkapnya
+					                        	</a>
+					                        </button>
+										</div>
+										 
+									</div>
+								</td>
+	        				</tr>
+	        				<tr>
+	        					<td>
+		        					<div class="media">
+										<div class="media-left">
+										  	<img src="img/glx.png" class="media-object" style="width:80px">
+										</div>
+										<div class="media-body">
+										  	<h5>Samsung Galaxy Terbaru</h5>
+											<button type='submit' class='btn btn-link' name='read' id="read">
+					                        	<a href='#'><span class='glyphicon glyphicon-search'></span>  Baca Selengkapnya
+					                        	</a>
+					                        </button>
+										</div>
+										 
+									</div>
+								</td>
+	        				</tr>
+	        				<tr>
+	        					<td>
+		        					<div class="media">
+										<div class="media-left">
+										  	<img src="img/tlk.jpg" class="media-object" style="width:80px">
+										</div>
+										<div class="media-body">
+										  	<h5>Gangguan Jaringan Telkomsel</h5>
+											<button type='submit' class='btn btn-link' name='read' id="read">
+					                        	<a href='#'><span class='glyphicon glyphicon-search'></span>  Baca Selengkapnya
+					                        	</a>
+					                        </button>
+										</div>
+										 
+									</div>
+								</td>
+	        				</tr>
+	        				<tr>
+	        					<td>
+		        					<div class="media">
+										<div class="media-left">
+										  	<img src="img/jumboforsa01.png" class="media-object" style="width:80px">
+										</div>
+										<div class="media-body">
+										  	<h5>FORSA untuk Mahasiswa Indonesia</h5>
+											<button type='submit' class='btn btn-link' name='read' id="read">
+					                        	<a href='#'><span class='glyphicon glyphicon-search'></span>  Baca Selengkapnya
+					                        	</a>
+					                        </button>
+										</div>
+										 
+									</div>
+								</td>
+	        				</tr>
+	        				<tr>
+	        					<td>
+		        					<div class="media">
+										<div class="media-left">
+										  	<img src="img/conti.jpg" class="media-object" style="width:80px">
+										</div>
+										<div class="media-body">
+										  	<h5>Continental Group "Si Pengembang" FORSA dari UI</h5>
+											<button type='submit' class='btn btn-link' name='read' id="read">
+					                        	<a href='#'><span class='glyphicon glyphicon-search'></span>  Baca Selengkapnya
+					                        	</a>
+					                        </button>
+										</div>
+										 
+									</div>
+								</td>
+	        				</tr>
+	        			</table>
+	        			<ul class="pagination pagination-sm">
+							  <li><a href="#">1</a></li>
+							  <li><a href="#">2</a></li>
+							  <li><a href="#">3</a></li>
+						</ul>
+	        		</div>
+	        	</div>
+	        </div>
+        </div>
+        <hr>
+        <div class='container' >
+        	<h1 style='color:#cb4335;'>Aktifitas Teman</h1>
+        	<table class='table table-hover'>
+				<tbody>
+					<tr style='cursor:pointer;'>
+						<td><h5>Hari Ini</h5>
+							<h5>08:01</h5>
+						</td>
+						<td><img src="img/rip.png" class="media-object" style="width:60px"><h5><b>Arief Tritomo (@arieft23)</b></h5>
+							<h6> <span class='glyphicon glyphicon-fire' style='color:#cb4335;'></span> Akun Premium</h6>
+
+						</td>
+						<td><a href='arief-thread.html' style='text-decoration: none;'><h4>Berapa Turunan 2X^2 + 5X ?</h4><span class="badge">#matematika</span></a></td>
+						<td><h4 style='color:#00cc00;'><span class='glyphicon glyphicon-circle-arrow-up'></span> 4</h4></td>
+						<td><h6>Dibalas: 2</h6><h6>Dilihat: 7</h6></td>
+
+					</tr>
+					<tr href='#' style='cursor:pointer;'>
+						<td><h5>Hari Ini</h5>
+							<h5>07:26</h5>
+						</td>
+						<td><img src="img/je.png" class="media-object" style="width:60px"><h5><b>Muhammad Ramdhan Syakirin (@ramsya)</b></h5>
+						</td>
+						<td><a href='#' style='text-decoration: none;'><h4>Buku rujukan untuk penggunaan SAP?</h4><span class="badge">#komputer</span></a></td>
+						<td><h4 style='color:#00cc00;'><span class='glyphicon glyphicon-circle-arrow-up'></span> 6</h4></td>
+						<td><h6>Dibalas : 0</h6><h6>Dilihat : 11</h6></td>
+					</tr>
+					<tr href='#' style='cursor:pointer;'>
+						<td><h5>Kemarin</h5>
+							<h5>23:20</h5>
+						</td>
+						<td><img src="img/dist.png" class="media-object" style="width:60px"><h5><b>Yudistira Ramadhan (@yudistr)</b></h5>
+							<h6> <span class='glyphicon glyphicon-fire' style='color:#cb4335;'></span> Akun Premium</h6>
+						</td>
+						<td><a href='#' style='text-decoration: none;'><h4>Mahasiswa dengan IPK > 3.5 ?</h4><span class="badge">#mahasiswa</span></a></td>
+						<td><h4 style='color:#cb4335;'><span class='glyphicon glyphicon-circle-arrow-down'></span> -1</h4></td>
+						<td><h6>Dibalas : 14</h6><h6>Dilihat : 29</h6></td>
+					</tr>
+					<tr href='#' style='cursor:pointer;'>
+						<td><h5>Kemarin</h5>
+							<h5>18:20</h5>
+						</td>
+						<td><img src="img/rip.png" class="media-object" style="width:60px"><h5><b>Arief Tritomo (@arieft23)</b></h5>
+							<h6> <span class='glyphicon glyphicon-fire' style='color:#cb4335;'></span> Akun Premium</h6>
+
+						</td>
+						<td><a href='#' style='text-decoration: none;'><h4>Bagaimana cara penggunaan mutex ?</h4><span class="badge">#sistemoperasi</span><span class="badge">#komputer</span></a></td>
+						<td><h4 style='color:#00cc00;'><span class='glyphicon glyphicon-circle-arrow-up'></span> 1</h4></td>
+						<td><h6>Dibalas : 1</h6><h6>Dilihat : 4</h6></td>
+					</tr>
+					<tr href='#' style='cursor:pointer;'>
+						<td><h5>Kemarin</h5>
+							<h5>11:40</h5>
+						</td>
+						<td><img src="img/rip.png" class="media-object" style="width:60px"><h5><b>Arief Tritomo (@arieft23)</b></h5>
+							<h6> <span class='glyphicon glyphicon-fire' style='color:#cb4335;'></span> Akun Premium</h6>
+
+						</td>
+						<td><a href='#' style='text-decoration: none;'><h4>Pengertian Multi Threading</h4><span class="badge">#sistemoperasi</span><span class="badge">#komputer</span></a></td>
+						<td><h4 style='color:#00cc00;'><span class='glyphicon glyphicon-circle-arrow-up'></span> 13</h4></td>
+						<td><h6>Dibalas : 10</h6><h6>Dilihat : 21</h6></td>
+					</tr>
+				</tbody>
+			</table>
+			<button class='btn btn-default'>Tampilkan Lebih Banyak...</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="footer" id="footerWeb" style='text-align: center;padding: 15px; background-color: #d7dbdd;'>
+            <h4><b>&copy; 2017 - Continental Team</b></h4>
+            <br>
+            <h6>Alham Febian Rinaldy / 1506757636</h6>
+            <h6>Andre Gema Syahputra / 1506689282</h6>
+            <h6>Irfin Handiliastawan / 1506689704</h6>
+            <h6>Yosua Bisma Putrapratama / 1506689622</h6>
+            <h6>Yudistira Ramadhan / 1506689635</h6>
+           	<br>
+        </div>
+	</body>
+</html>

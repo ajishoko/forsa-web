@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Portal Forum</title>
+		<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="beranda.html"  id="websiteName">
+                        <img src='img/forsared.png' height='35px' id='logoF' style='margin-top:-8px;'>
+                    </a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Utama</a></li>
+                    <li class="active"><a href="forum-portal.html">Forum</a></li>
+                </ul>
+                 <script type="text/javascript">
+                    function pindah()
+                    {
+                        var username = document.getElementById("username").value;
+                        var password = document.getElementById("password").value;
+                        if(username=="username00" && password=="password"){
+                            alert("Login Sukses, klik button OK untuk dialihkan ke halaman Anda.");
+                            window.location.href="beranda.html";
+                        }
+                        else{
+                            alert("Login Gagal, silahkan periksa username atau password anda.");
+                        }
+                    }
+                </script>
+                <form class="navbar-form navbar-right">
+                    <form class="navbar-form navbar-right" method="post" action="./index.php">
+                        <div class="form-group">
+                            <input class="form-control input-sm" type="text" name="username" id="username" placeholder="username">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control input-sm" type="password" name="password" id="password" placeholder="password">
+                        </div>
+                        <div class="form-group">
+                            <input type="button" class='btn btn-danger' value="Masuk" id="tombol-login" onclick="pindah()">
+                        </div>
+                    </form>
+                </form>
+            </div>
+        </nav>
+
+        <br><br>
+        <div class="jumbotron" style="background-image: url(img/jumboforsa01.png); height: 55vh; width:100vw; background-position: center center; background-repeat: no-repeat;">
+        </div>
+
+        <div class="container">
+        <h1 style='color:#cb4335;'>Portal Forum</h1>
+        <br/>
+        <h2>Kalkulus</h2>
+            <div class="row" style="margin-bottom: 8px;">
+                <a href="forum-threadlist.html"><div href="" class="col-md-5" style="margin: 5px; border: 1px solid #d7dbdd; border-radius: 4px; margin-right: 40px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                    <h4 style='color:#cb4335;'>Kalkulus Dasar</h4>
+                    <h6 style="color: black;">Dasar-dasar kalkulus</h6>
+                </div></a>
+                <div class="col-md-5" style="margin: 5px;border: 1px solid #d7dbdd; border-radius: 4px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                    <h4 style='color:#cb4335;'>Kalkulus Diferensial</h4>
+                    <h6>Mempelajari bagaimana nilai suatu fungsi berubah menurut perubahan input nilainya. </h6>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 8px;">
+                <div class="col-md-5" style="margin: 5px;border: 1px solid #d7dbdd; border-radius: 4px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                    <h4 style='color:#cb4335;'>Kalkulus Lanjutan</h4>
+                    <h6>Kalkulus 2.0</h6>
+                </div>
+            </div>
+            <h2>Statistika</h2>
+            <div class="row" style="margin-bottom: 8px;">
+                <div class="col-md-5" style="margin: 5px; border: 1px solid #d7dbdd; border-radius: 4px; margin-right: 40px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                    <h4 style='color:#cb4335;'>Statistika Dasar</h4>
+                    <h6>Dasar statistika</h6>
+                </div>
+                <div class="col-md-5" style="margin: 5px;border: 1px solid #d7dbdd; border-radius: 4px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                    <h4 style='color:#cb4335;'>Statistika Terapan</h4>
+                    <h6>Penerapan ilmu statistika</h6>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 8px;">
+                <div class="col-md-5" style="margin: 5px; border: 1px solid #d7dbdd; border-radius: 4px; margin-right: 40px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                    <h4 style='color:#cb4335;'>Statistika & Probabilitas</h4>
+                    <h6>Statprob</h6>
+                </div>
+            </div>
+            <h2>Support</h2>
+            <div class="row" style="margin-bottom: 8px;">
+                <div class="col-md-5" style="margin: 5px; border: 1px solid #d7dbdd; border-radius: 4px; margin-right: 40px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                    <h4 style='color:#cb4335;'>Technical Support</h4>
+                    <h6>Post berbagai masalah anda yang berkaitan dengan FORSA disini</h6>
+                </div>
+                <div class="col-md-5" style="margin: 5px;border: 1px solid #d7dbdd; border-radius: 4px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                    <h4 style='color:#cb4335;'>Saran</h4>
+                    <h6>Tuangkan saran untuk FORSA yang lebih baik</h6>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+
+
+        <div class="footer" id="footerWeb" style='text-align: center;padding: 15px; background-color: #d7dbdd; bottom: 0'>
+            <h4><b>&copy; 2017 - Continental Team</b></h4>
+            <br>
+            <h6>Alham Febian Rinaldy / 1506757636</h6>
+            <h6>Andre Gema Syahputra / 1506689282</h6>
+            <h6>Irfin Handiliastawan / 1506689704</h6>
+            <h6>Yosua Bisma Putrapratama / 1506689622</h6>
+            <h6>Yudistira Ramadhan / 1506689635</h6>
+            <br>
+        </div>
+
+    </body>
+</html>
