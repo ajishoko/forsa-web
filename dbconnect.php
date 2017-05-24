@@ -8,6 +8,6 @@
     if(!$connection) {
       echo 'Error connecting to database';
    	}
-   	$querySET = "SET SEARCH_PATH TO SIRIMA";
+   	$querySET = "SET SEARCH_PATH TO FORSA";
    	pg_query($connection, $querySET);
 ?>
