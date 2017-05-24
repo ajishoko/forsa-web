@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php 
+    include("dbconnect.php");
+?>
 <html>
 	<head>
 		<meta charset="UTF-8">
