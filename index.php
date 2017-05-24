@@ -1,14 +1,7 @@
 <?php 
     include("dbconnect.php");
     $sql = "SELECT * FROM FORSA.AKUN";
-    $result = pg_query($connection , $sql);
-                            while($row = pg_fetch_array($result)){
-                                echo "  <tr>
-                                            <td>".$row[0]."</td>
-                                            <td>".$row[1]."</td>
-                                            <td>".$row[2]."</td>
-                                        </tr>";
-                            }
+
 ?>
 <html>
 	<head>
@@ -60,6 +53,27 @@
         </nav>
         <img src='img/jumboforsa01.png' class="img-responsive">
         <img src='img/img2.png' class="img-responsive">
+        <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th style="text-align: center;">Nama Prodi</th>
+                            <th style="text-align: center;">Jenis Kelas</th>
+                            <th style="text-align: center;">Nama Fakultas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                        $result = pg_query($connection , $sql);
+                            while($row = pg_fetch_array($result)){
+                                echo "  <tr>
+                                            <td>".$row[0]."</td>
+                                            <td>".$row[1]."</td>
+                                            <td>".$row[2]."</td>
+                                        </tr>";
+                            }
+                    ?>
+                    </tbody>
+            </table>
         <div class="footer" id="footerWeb" style='text-align: center;'>
             <hr>
             <h4><b>&copy; 2017 - Continental Team</b></h4>
