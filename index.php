@@ -1,15 +1,14 @@
 <?php 
     include("dbconnect.php");
-/*    $sql = "SELECT * FROM AKUN";
+    $sql = "SELECT * FROM FORSA.AKUN";
     $result = pg_query($connection , $sql);
-
                             while($row = pg_fetch_array($result)){
                                 echo "  <tr>
                                             <td>".$row[0]."</td>
                                             <td>".$row[1]."</td>
                                             <td>".$row[2]."</td>
                                         </tr>";
-                            }*/
+                            }
 ?>
 <html>
 	<head>
